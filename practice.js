@@ -111,11 +111,15 @@ function add (num1, num2) {
   return num1 + num2
 }
 
-add(1,2)
+add(3,4)
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
- 
+
+add (3,4)
+
+var mathSum = add(3,4)
+
 //////////////////PROBLEM 12////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
